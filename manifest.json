@@ -1,0 +1,11 @@
+{
+  "name": "Chrome Present.ly",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://smartlogicsolutions.presentlyapp.com/home"],
+      "css": ["chrome-presently.css"],
+      "js": ["lib/jquery.min.js", "chrome-presently.js"]
+    }
+  ]
+}
