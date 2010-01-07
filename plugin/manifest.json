@@ -1,13 +1,13 @@
 {
   "name": "Chrome Present.ly",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Cleaning up present.ly's overweight homepage.",
   "icons": { "48" : "assets/icon_48.png",
              "128": "assets/icon_128.png" },
   "content_scripts": [
     {
       "matches": ["https://*.presentlyapp.com/home"],
-      "css": [],
+      "css": ["chrome-presently.css"],
       "js": ["lib/jquery.min.js", "chrome-presently.js"]
     }
   ]

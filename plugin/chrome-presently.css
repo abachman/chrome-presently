@@ -1,0 +1,5 @@
+a.disabled-chrome { background-color: #fff ! important; color: #999999 ! important; text-decoration: none; }
+.chrome-noborder { border-bottom-left-radius: 0px ! important; border-bottom-right-radius: 0px ! important; border-top-left-radius: 0px ! important; border-top-right-radius: 0px ! important; border: 0px ! important; }
+textarea.chrome { border: 1px solid #777 ! important; font-size: 10px ! important; }
+textarea.chrome:hover { border: 1px solid #06812A ! important; }
+textarea.chrome:focus { border: 1px solid #06812A ! important; }
